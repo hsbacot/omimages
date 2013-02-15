@@ -1,4 +1,6 @@
 Omimages::Application.routes.draw do
+  get "home/about"
+
   resources :pins
 
 
